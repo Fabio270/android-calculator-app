@@ -27,7 +27,17 @@
             android:layout_marginTop="-50dp"
             />
 
-
+        <TextView
+            android:id="@+id/resultTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="6"
+            app:layout_constraintTop_toBottomOf="@id/expressionTv"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="40sp"
+            />
 
 
 
