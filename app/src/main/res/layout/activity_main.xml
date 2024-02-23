@@ -232,6 +232,51 @@
                 android:textSize="25dp" />
         </TableRow>
 
+        <TableRow android:layout_weight="1">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/dotCmBt"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@color/light_blue"
+                android:text="."
+                android:textColor="@color/purple"
+                android:textSize="25dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/zeroCmBt"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@color/light_blue"
+                android:text="0"
+                android:textColor="@color/purple"
+                android:textSize="20dp" />
+
+            <ImageButton
+                android:id="@+id/eraseCmBt"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@color/light_blue"
+                android:src="@drawable/ic_backspace_24" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/equalsCmBt"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@color/blue"
+                android:text="="
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+        </TableRow>
+
 
     </TableLayout>
 
