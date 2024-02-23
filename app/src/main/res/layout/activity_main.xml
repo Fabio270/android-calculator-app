@@ -91,6 +91,53 @@
                 android:textSize="25dp" />
         </TableRow>
 
+        <TableRow android:layout_weight="1">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/sevenCmBt"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@color/light_blue"
+                android:text="7"
+                android:textColor="@color/purple"
+                android:textSize="20dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/eightCmBt"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@color/light_blue"
+                android:text="8"
+                android:textColor="@color/purple"
+                android:textSize="20dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/nineCmBt"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@color/light_blue"
+                android:text="9"
+                android:textColor="@color/purple"
+                android:textSize="20dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/timesCmBt"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@color/blue"
+                android:text="*"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+        </TableRow>
+
 
     </TableLayout>
 
